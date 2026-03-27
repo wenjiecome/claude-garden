@@ -10,27 +10,40 @@ A growing collection of Claude Code skills, agents and hooks.
 /plugin marketplace add wenjiecome/claude-garden
 ```
 
-### Install Plugin
+### Install Plugins
+
+```bash
+# Install garden (skills, agents, hooks collection)
+/plugin install garden@claude-garden
+
+# Install knowledge-code-bridge (Obsidian integration)
+/plugin install knowledge-code-bridge@claude-garden
+```
+
+## Available Plugins
+
+### garden
+
+Personal collection of Claude Code skills, agents and hooks.
 
 ```bash
 /plugin install garden@claude-garden
 ```
 
-## Available Skills
+### knowledge-code-bridge
 
-> Skills are being planted. Check back soon!
+连接 Obsidian 知识库与代码库，支持双向引用和同步。
 
-## Available Agents
+**功能：**
+- 在代码中使用 `[[笔记名]]` 引用知识库笔记
+- 同步设计文档到知识库
+- 统一搜索代码库和知识库
 
-> Agents are being cultivated. Check back soon!
-
-## Available Hooks
-
-> Hooks are being grown. Check back soon!
-
-## Available Commands
-
-> Commands are being seeded. Check back soon!
+**安装后使用：**
+```bash
+# 配置知识库连接
+/knowledge-code-bridge:setup
+```
 
 ## Philosophy
 
