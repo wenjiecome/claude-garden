@@ -1,0 +1,6 @@
+{
+  "name": "claude-garden",
+  "description": "A growing collection of Claude Code skills, agents and hooks",
+  "owner": "wenjiecome",
+  "plugins": ["garden"]
+}

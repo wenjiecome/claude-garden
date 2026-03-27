@@ -1,0 +1,11 @@
+{
+  "name": "garden",
+  "description": "Personal collection of Claude Code skills, agents and hooks",
+  "version": "1.0.0",
+  "author": {
+    "name": "wenjiecome"
+  },
+  "repository": "https://github.com/wenjiecome/claude-garden",
+  "license": "MIT",
+  "keywords": ["skills", "agents", "hooks", "claude-code", "productivity"]
+}
