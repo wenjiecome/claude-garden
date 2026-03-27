@@ -1,0 +1,11 @@
+{
+  "name": "claude-garden",
+  "version": "1.0.0",
+  "description": "连接 Obsidian 知识库与代码库，支持双向引用和同步",
+  "author": {
+    "name": "wenjiecome"
+  },
+  "repository": "https://github.com/wenjiecome/claude-garden",
+  "license": "MIT",
+  "keywords": ["obsidian", "knowledge-base", "sync", "wiki-link", "claude-code"]
+}

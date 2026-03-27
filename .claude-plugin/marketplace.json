@@ -1,4 +1,5 @@
 {
+  "$schema": "https://anthropic.com/claude-code/marketplace.schema.json",
   "name": "claude-garden",
   "description": "A growing collection of Claude Code skills, agents and hooks",
   "owner": {
@@ -6,22 +7,20 @@
   },
   "plugins": [
     {
-      "name": "garden",
-      "description": "Personal collection of Claude Code skills, agents and hooks",
-      "version": "1.0.0",
-      "source": "plugins/garden",
-      "author": {
-        "name": "wenjiecome"
-      }
-    },
-    {
-      "name": "knowledge-code-bridge",
+      "name": "claude-garden",
+      "source": "./",
       "description": "连接 Obsidian 知识库与代码库，支持双向引用和同步",
-      "version": "1.0.1",
-      "source": "plugins/knowledge-code-bridge",
+      "version": "1.0.0",
       "author": {
         "name": "wenjiecome"
-      }
+      },
+      "category": "integration",
+      "tags": [
+        "obsidian",
+        "knowledge-base",
+        "sync",
+        "wiki-link"
+      ]
     }
   ]
 }

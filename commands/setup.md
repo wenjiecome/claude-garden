@@ -4,7 +4,7 @@ argument-hint: ""
 allowed-tools: Read, Write, Bash, AskUserQuestion
 ---
 
-# Knowledge-Code Bridge Setup
+# Claude Garden Setup
 
 配置 Obsidian 知识库与代码库的连接。
 
@@ -74,10 +74,10 @@ fi
 
 验证通过后，创建配置文件和软链接：
 
-**1. 保存配置到 `~/.claude/skills/knowledge-code-bridge/config.env`：**
+**1. 保存配置到 `~/.claude/skills/claude-garden/config.env`：**
 ```bash
-mkdir -p ~/.claude/skills/knowledge-code-bridge
-cat > ~/.claude/skills/knowledge-code-bridge/config.env << EOF
+mkdir -p ~/.claude/skills/claude-garden
+cat > ~/.claude/skills/claude-garden/config.env << EOF
 OBSIDIAN_PATH=$OBSIDIAN_PATH
 KNOWLEDGE_BASE=$WSL_KB_PATH
 SYNC_TARGET=$WSL_KB_PATH/从代码库同步
@@ -119,7 +119,7 @@ Obsidian 路径: $OBSIDIAN_PATH
 ## Examples
 
 ```
-/knowledge-code-bridge:setup
+/claude-garden:setup
 
 # 系统询问:
 Q1: Obsidian 安装位置
