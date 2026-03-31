@@ -1,5 +1,5 @@
 {
-  "name": "claude-garden",
+  "name": "kb",
   "version": "1.0.0",
   "description": "连接 Obsidian 知识库与代码库，支持双向引用和同步",
   "author": {

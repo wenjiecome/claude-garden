@@ -1,13 +1,13 @@
 {
   "$schema": "https://anthropic.com/claude-code/marketplace.schema.json",
-  "name": "claude-garden",
-  "description": "A growing collection of Claude Code skills, agents and hooks",
+  "name": "kb",
+  "description": "Knowledge base integration for Claude Code - connect Obsidian vaults with codebases",
   "owner": {
     "name": "wenjiecome"
   },
   "plugins": [
     {
-      "name": "claude-garden",
+      "name": "kb",
       "source": "./",
       "description": "连接 Obsidian 知识库与代码库，支持双向引用和同步",
       "version": "1.0.0",
